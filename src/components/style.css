@@ -1,0 +1,236 @@
+body {
+    text-align: center;
+    font-size: 1.0em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navigation > div, 
+.navigation > span, 
+.navigation > input, 
+.navigation > button, 
+.navigation > select {
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 35px;
+    vertical-align: middle;
+}
+
+::placeholder, .filterPlaceholder {
+    position: relative;
+    left: 5px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 1; 
+}
+
+.filterPlaceholder {
+    line-height: 35px;
+    vertical-align: middle;
+    z-index: 1;
+}   
+
+.navigation {
+    display: inline-block;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0px 10px 0px;
+}
+
+.offersItems table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    border-collapse: collapse;
+    /*border: 1px solid black;*/
+}
+
+/*
+.offersItems thead td:last-child {
+    border-top-right-radius: 10px;
+}
+
+.offersItems thead td:first-child {
+    border-top-left-radius: 10px;
+}
+*/
+
+.offersItems table td { 
+    padding: 5px;
+}
+/*
+.offersItems tbody tr {
+    border: 1px solid black;
+}
+*/
+.offersItems tbody td {
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    height: 25px;
+}
+
+.offersItems thead th {
+    padding: 10px;
+    text-align: left;
+    border-right: none;
+    border-left: none;
+    height: 30px;
+    background-color: rgb(12, 96, 156);
+    color: white;
+}
+
+.offersDisplayContainer {
+    width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchInput { 
+    width: 213px;
+    height: 31px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    border: solid #a8a8a8 1px;
+}
+
+.filterDropdown {
+    display: inline-block;
+    z-index: 15;
+    border: solid #a8a8a8 1px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: left;
+    background-color: white;
+    width: 128px;
+    height: 33px;
+    line-height: 35px;
+    vertical-align: middle;
+}
+
+.filterDropdownContent {
+    display: none;
+    z-index: 10;
+    margin-left: -1px;
+    margin-top: -3px;
+    position: absolute;
+    background-color: white;
+    border: solid #a8a8a8 1px;
+    border-radius: 10px 10px 10px 10px;
+    width: 128px;
+}
+
+.filterDropdownContent > ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0px; 
+}
+
+.filterCategory {
+    margin-left: 5px;
+    height: 27px;
+    display: block;
+}
+
+.filterCategory input {
+    position: relative;
+    top: 2px;
+}
+
+.filterHeader {
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: -5px; 
+}
+
+.sortSelect {
+    border-radius: 10px 10px 10px 10px;
+    width: 130px;
+    height: 35px;
+    background-color: white;
+    border: solid #a8a8a8 1px;
+    border-radius: 10px 10px 10px 10px;
+    line-height: 35px;
+    vertical-align: middle;
+}
+
+.sortSelect > option {
+    font-family: 'Montserrat', sans-serif;
+    height: 27px;
+}
+
+.offersItems {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchButton, .refreshButton {
+    border-radius: 18px 18px 18px 18px;
+    font-family: 'Montserrat', sans-serif;
+    height: 35px;
+    background-color: white;
+    border: solid #a8a8a8 1px;
+}
+
+.refreshButton {
+    width: 65px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: light; 
+}
+
+.refreshSpan {
+    vertical-align: middle;
+    line-height: 35px;
+    margin: auto;
+    font-size: 30px;
+    position: relative;
+    top: -2px;
+}
+
+.searchButton {
+    width: 130px;
+    -webkit-transition-duration: 0.6s; 
+    transition-duration: 0.6s;
+}
+
+.refreshButton {
+    -webkit-transition-duration: 0.6s; 
+    transition-duration: 0.6s;
+}
+
+/*    button hover animation    */
+.searchButton:hover, .refreshButton:hover {
+    cursor: pointer;
+    background-color: #21b121;
+    color: white;
+}
+
+.sortSelect:hover, .filterDropdown:hover {
+    cursor: pointer;
+}
+
+.filterDropdownContent:hover { 
+    cursor: default;
+}
+
+.alertBox {
+    width: 250px;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.tableWrapper {
+    position: relative;
+}
+
+.tableScroll {
+    height: 400px;
+    width: 800px;
+    overflow: auto;  
+}
+  
+.tableWrapper table {
+    width: 100%;
+}

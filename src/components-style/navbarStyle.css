@@ -1,0 +1,24 @@
+.Navbar {
+  background-color: rgb(12, 96, 156);
+  width: 100%;
+}
+
+.Navbar h2 {
+  float: left;
+  
+}
+
+#hAdmin {
+  color: white;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.Navbar button {
+  float: right;
+  margin-top: 20px;
+}
+
+.Navbar div {
+  clear: both;
+}
